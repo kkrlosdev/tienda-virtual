@@ -1,0 +1,38 @@
+[
+{
+    "model": "products.product",
+    "pk": 1,
+    "fields": {
+        "titulo": "Zapatos Nike Dunk Low",
+        "descripcion": "Zapatos Nike LTDA",
+        "price": "120.00",
+        "slug": "zapatos-nike",
+        "image": "products/zapatos.webp",
+        "created_at": "2023-11-22T23:29:14.777Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 2,
+    "fields": {
+        "titulo": "Zapatos Forum Low",
+        "descripcion": "Zapatos Forum Low",
+        "price": "250.00",
+        "slug": "forum-low",
+        "image": "products/forum_low.png",
+        "created_at": "2023-11-22T23:50:45.956Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 3,
+    "fields": {
+        "titulo": "Laptop Gamer",
+        "descripcion": "Laptop Gamer Lenovo",
+        "price": "2000.00",
+        "slug": "laptop-gamer",
+        "image": "products/laptop-gamer.webp",
+        "created_at": "2023-11-23T01:15:35.575Z"
+    }
+}
+]

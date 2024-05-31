@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content %}
+        <div class="col">
+            <h2>Log-In</h2>
+            <form method="post">
+                {% csrf_token %}
+                <div class="form-group">
+                    <label for="usuario">Usuario</label>
+                    <input type="text" name="usuario" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="contraseña">Contraseña</label>
+                    <input type="password" name="contraseña" class="form-control">
+                </div>
+                <button type="submit" class="btn btn-primary mt-2">Login</button>
+            </form>
+        </div>
+{% endblock %}

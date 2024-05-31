@@ -1,0 +1,7 @@
+venv
+
+tienda_virtual/static
+
+tienda_virtual/db.sqlite3
+
+tienda_virtual/media/products

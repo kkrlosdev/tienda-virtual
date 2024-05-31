@@ -1,7 +1,9 @@
+static
+
 venv
 
-tienda_virtual/static
+db.sqlite3
 
-tienda_virtual/db.sqlite3
+**/__pycache__
 
-tienda_virtual/media/products
+media
